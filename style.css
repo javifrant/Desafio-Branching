@@ -1,0 +1,66 @@
+body {
+  background: #342E37;
+  }
+
+.container {
+  padding-top: 30px;
+} 
+  
+h1 {
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+  
+img {
+  max-width: 80%;
+  margin-bottom: 2rem;
+  display: block;
+  margin-inline: auto;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 0px 14px 7px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 2px 0px 14px 7px rgba(255, 255, 255, 0.75);
+  box-shadow: 2px 0px 14px 7px rgba(255, 255, 255, 0.75);
+  @media screen and (min-width: 768px) 
+    max-width: 40%;
+}
+
+form {
+  padding: 30px;
+}
+  
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: #676264;
+  padding: 20px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #2E282A;
+  margin-bottom: 3rem;
+}
+  
+.btn a {
+    color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  box-shadow: 0 4px #2E282A;
+  top: 2px; 
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px; 
+} 
